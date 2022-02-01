@@ -1,0 +1,22 @@
+{
+  "name": "EECS-1720 Extension",
+  "description": "Build a Basic extension.",
+  "version": "100.0",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "img/icon128.png",
+    "48": "img/icon48.png",
+    "32": "img/icon32.png",    
+    "16": "img/icon16.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon":{
+      "128": "img/icon128.png",
+      "48": "img/icon48.png",
+      "32": "img/icon32.png",    
+      "16": "img/icon16.png"
+    }     
+  },  
+  "manifest_version": 2
+}
